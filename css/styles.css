@@ -1,0 +1,157 @@
+html{
+  scroll-behavior: smooth;
+}
+body{
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 500;
+}
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Montserrat', sans-serif;
+}
+
+h3{
+  font-weight: 900;
+}
+
+h2{
+  font-size: 2.5rem;
+  font-weight: 800;
+  line-height: 1.5;
+}
+
+p{
+  color: #8f8f8f;
+}
+
+#title{
+  background-color: #ff4c68;
+  color:#fff;
+}
+
+#big-heading{
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 600;
+}
+
+.container-fluid{
+  padding: 3% 15% 7%;
+  background-color: #ff4c68;
+}
+
+/* Navigation Bar */
+
+.navbar-brand{
+  font-size: 2.5rem;
+}
+.navbar{
+  padding:0 0 3rem;
+}
+.nav-item{
+  padding: 0 20px;
+}
+.nav-link{
+  font-size:1.2rem;
+}
+
+.download-button{
+  margin:5% 3% 5% 0;
+}
+
+.title-image{
+  width: 50%;
+  transform: rotate(20deg);
+  position: absolute;
+  left: 40px;
+}
+
+.fab{
+  margin-right:5px;
+}
+
+/* Features Section */
+
+#features{
+  padding: 7% 15%;
+  position: relative;
+  z-index: 1;
+  background-color: #fff;
+
+}
+.feature-box{
+  text-align: center;
+  padding: 5px;
+}
+.icon{
+  color:#ef8172;
+  margin-bottom: 1rem;
+}
+.icon:hover{
+  color: #ff4c68;
+}
+
+/* Testimonials Section */
+
+#testimonials{
+  text-align: center;
+  background-color: #ef8172;
+  color:#fff;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+}
+
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo{
+  width: 15%;
+  margin:20px 20px 50px
+}
+
+/* Pricing Section */
+
+#pricing{
+  padding: 100px;
+}
+
+.pricing-column{
+  padding:3% 2%;
+}
+
+@media (max-width:1028px) {
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+/* Footer section */
+
+#cta{
+  text-align: center;
+  color: #fff;
+  padding: 3% 15%;
+  background-color: #ff4c68;
+}
+#footer{
+  text-align: center;
+  padding: 1%;
+}
+.cta-heading{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 800;
+}

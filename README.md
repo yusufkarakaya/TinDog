@@ -1,2 +1,1 @@
-# TinDog
-Boostrap used.
+TinDog Starting Files
